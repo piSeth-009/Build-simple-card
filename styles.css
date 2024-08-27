@@ -1,0 +1,82 @@
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap");
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Ubuntu", sans-serif;
+}
+
+body {
+  background-color: #e1c663;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  padding: 20px;
+}
+
+.card {
+  background-color: white;
+  border-radius: 15px;
+  box-shadow: 0 10px 15px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  width: 300px;
+  padding: 20px;
+  box-shadow: 9px 9px black;
+}
+
+.card-image img {
+  width: 100%;
+  display: block;
+  border-radius: 10px;
+}
+
+.card-content {
+  padding: 20px;
+}
+
+.tag {
+  background-color: #e1c663;
+  color: black;
+  font-size: 14px;
+  font-weight: bold;
+  padding: 5px 10px;
+  border-radius: 5px;
+  display: inline-block;
+}
+
+.date {
+  color: #777;
+  font-size: 12px;
+  margin: 10px 0;
+}
+
+h2 {
+  font-size: 18px;
+  margin: 10px 0;
+  color: black;
+}
+
+.description {
+  color: gray;
+  font-size: 14px;
+  line-height: 1.5;
+  margin-bottom: 20px;
+}
+
+.author {
+  display: flex;
+  align-items: center;
+}
+
+.author img {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+.author span {
+  color: black;
+  font-weight: bold;
+}
